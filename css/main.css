@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #e6ccff;
     font-size: 1em;
     height: 100%;
     line-height: 1.4;
@@ -87,7 +87,7 @@ textarea {
 
 .browserupgrade {
     margin: 0.2em 0;
-    background: #ccc;
+    background: black;
     color: #000;
     padding: 0.2em 0;
 }
@@ -98,36 +98,46 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: gray;
   height: 100%;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
+  padding: 1em;
+  font-size: 1em;
   height: 100%;
+}
+
+.intro {
+    color: white;
+    font-size: 2em;
+    margin: 1em;
+    padding: .5em;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
-  font-weight: 700;
+  font-weight: 400;
   justify-content: center;
   justify-content: space-between;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: black;
+  border: 2px solid white;
   display: flex;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #e6ccff;
   height: 300px;
   width: 30%;
   justify-content: center;
   align-items: center;
+  margin: 1em;
+  padding: 1em;
 }
 
 
